@@ -7,6 +7,7 @@ author 'BCC Team'
 
 shared_scripts {
     'configs/*.lua',
+    'debug_init.lua',
     'locale.lua',
     'languages/*.lua'
 }
