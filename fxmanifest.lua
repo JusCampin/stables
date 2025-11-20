@@ -13,11 +13,14 @@ shared_scripts {
 }
 
 client_scripts {
-    'client/main.lua'
+    'client/client_init.lua',
+    'client/main.lua',
+    'client/menus/stable_main.lua',
 }
 
 server_scripts {
     '@oxmysql/lib/MySQL.lua',
+    'server/server_init.lua',
     'server/main.lua'
 }
 
