@@ -3,7 +3,9 @@ Config = {
     defaultlang = 'en_lang',
     -----------------------------------------------------
 
-    devMode = true, -- Set to true to see debug prints
+    devMode = {
+        active = true, -- Set to true to see debug prints
+    },
     -----------------------------------------------------
 
     keys = {
